@@ -14,7 +14,7 @@ def testHandmatigeInput():
         return handmatigeInputTestResult
 
 def testZohoConnect():
-    zohoConnect(float(input("Voer API Key in.")))
+    zohoConnect(str(input("Voer API Key in.")))
 
 
 
