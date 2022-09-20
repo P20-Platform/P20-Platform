@@ -1,10 +1,10 @@
 import tkinter as tk
-import zohoConnect from zohoAPI
-import handmatigeInput from handmatigInput
+from zohoAPI import zohoConnect, zohoSend
+from handmatigInput import handmatigeInput
 
 
 def main():
-    print("Platform-20 IP Debug Started")
+    print("Platform-20 IP Debug Console Started.")
     username = handmatigeInput("Gebruikersnaam: \n")
     password = handmatigeInput("Wachtwoord: \n")
     ## for future authentication method.
@@ -16,7 +16,7 @@ def main():
     tk.Tk()
     
 
-def StartWindowNext():
+def StartWindowNext(): # enter next Tk frame for menu.
     print("Start Button Pressed.")
 
 
