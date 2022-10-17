@@ -1,5 +1,4 @@
 from distutils.cmd import Command
-from msvcrt import kbhit
 import tkinter as tk
 from tkinter import font as tkfont
 from zohoAPI import zohoConnect, zohoSend, zohoSubmitted
